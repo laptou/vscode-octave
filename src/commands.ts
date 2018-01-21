@@ -6,7 +6,7 @@ import * as vscode from "vscode";
 export class Commands implements vscode.Disposable {
     private LANGUAGE_NAME  = "Octave";
     private EXTENTSION_NAME = "octave";
-    private COMMANDS = "octave ";
+    private COMMANDS = "octave-cli ";
 
     private outputChannel: vscode.OutputChannel;
     private terminal: vscode.Terminal;
